@@ -19,7 +19,7 @@ Yarn Version: 1.22.10
   I have installed the gem called ruby-trello for API public key from Trello via trello.com/app-key/ and reference on github https://github.com/jeremytregunna/ruby-trello
 
 #### Local set up instructions
-    - `git clone git@github.com:siphosmall/rails_react_offerzen_assessment.git`
+    - `git clone git@github.com:siphomsiza/rails_react_offerzen_assessment.git`
     - `cd rails_react_offerzen_assessment`
     - `bundle install`
     - `yarn install`
