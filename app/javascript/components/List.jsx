@@ -28,16 +28,16 @@ class List extends React.Component {
     const { boards } = this.state;
     const all_boards = boards.map((board, index) => (
       <div key={index} className="vw-100 vh-160 primary-color d-flex align-items-center justify-content-center">
-        <div className="jumbotron jumbotron-fluid bg-transparent" style={{ marginBottom: '-6rem' }}>
+        <div className="jumbotron jumbotron-fluid bg-transparent" style={{ marginBottom: '-6rem',paddingTop: '30px' }}>
           <div className="container secondary-color">
             <div className="row">
-              <h4 className="display-6">{board.name}</h4>
+              <h4 className="display-6" style={{lineHeight: '2.2' }}>{board.name}</h4>
             </div>
             <div className="leads row">
               {
                 board.lists.map((list,index) => {
                   return (
-                    <div key={index} className="card" style={{ backgroundColor: '#E4EBEF' }}>
+                    <div key={index} className="card" style={{ backgroundColor: '#E4EBEF',width: '42%' }}>
                       <div className="card-body">
                         <h6 className="card-title">
                            <div className="row">

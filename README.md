@@ -34,5 +34,5 @@ Yarn Version: 1.22.10
   Trello API is configured on config/initializers/trello.rb
 
 * Heroku Url  
-  
+  https://rails-react-offerzen-assesment.herokuapp.com
 * ...
